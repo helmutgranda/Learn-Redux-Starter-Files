@@ -9,8 +9,8 @@ import posts from './data/posts';
 
 const defaultState = {
   posts,
-  comments: comments
-}
+  comments
+};
 
 const store = createStore(rooteReducer, defaultState);
 
