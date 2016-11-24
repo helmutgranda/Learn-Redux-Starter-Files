@@ -4,7 +4,7 @@
 
 // 2 copy of current state
 
-function posts(action, state = []) {
+function posts( state = [], action) {
   console.log(state, action);
   return state;
 }
