@@ -15,12 +15,12 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import store, { history } from './store';
 
-Raven.config(sentry_url, {
-    tags: {
-        version: '0.0.1',
-        userLevel: 'entry'
-    }
-}).install();
+// Raven.config(sentry_url, {
+//     tags: {
+//         version: '0.0.1',
+//         userLevel: 'entry'
+//     }
+// }).install();
 
 const router = (
     <Provider store={store}>    
